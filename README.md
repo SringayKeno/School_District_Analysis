@@ -47,7 +47,8 @@ image 6. Thomas High Schools ninth grades reading score shown as NAN in adjusted
 <img width="350" alt="thomas_reading_nan" src="https://user-images.githubusercontent.com/102890151/166132074-338ca2f9-3ccb-4517-89d2-189b5da2373c.png">
 
 - Scores by school spending
-
+- 
+<img width="731" alt="spending_initial" src="https://user-images.githubusercontent.com/102890151/166151477-a50ccac9-16db-4f15-ab93-c06de3998af8.png">
 
 
 
@@ -55,8 +56,13 @@ image 6. Thomas High Schools ninth grades reading score shown as NAN in adjusted
 - Scores by school size
 - Scores by school type
 
-Charter vs. District Schools
-Charter schools generally performed better than District schools in this analysis. The top five schools with the highest overall passing percentages are all Charter schools, whereas the bottom five are all District Schools. Charter schools in this dataset were typically characterized as "Small" and "Medium" size schools. As seen in the DataFrame below, Charter schools have a 36% higher overall passing percentage than District schools.
+Replacing the ninth-grade scores from Thomas High School did not affect the initial summary for scores by school type. There is a noticable trend in the scores by school type. Charter schools generally performed better than District schools. The top five schools with the highest overall passing percentages are all Charter schools. The bottom five are all District Schools. A study could be undertaken to see why this is the case and possible implementation of these successful characteristics in the district setting may prove beneficialCharter vs. District Schools.
+
+One possible explanation for this could be Charter schools in this dataset were typically characterized as "Small" and "Medium" size schools. As seen in the DataFrame below, Charter schools have a 36% higher overall passing percentage than District schools. 
+
+<img width="730" alt="type_initial" src="https://user-images.githubusercontent.com/102890151/166152144-97f79248-cc5f-4260-9073-b51e744d9e92.png">
+
+<img width="734" alt="type_adjusted" src="https://user-images.githubusercontent.com/102890151/166152250-0e234ffe-ff63-4176-9711-397c8679c852.png">
 
 
 ## Summary: 
