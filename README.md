@@ -11,7 +11,7 @@ After completion of the first analysis, the school board notified Maria that the
 
 ### How the District Summary is Affected?
 
-With the math and reading scores for Thomas High School replaced with NaNs the passing reading, passing math and the overall passing percentages all dropped approximately 1 percent for the district. See images 1 and 2 below.
+With the math and reading scores for Thomas High School's ninth grade replaced with NaNs the passing reading, passing math and the overall passing percentages all dropped approximately 1 percent for the district. See images 1 and 2 below. Thomas High's ninth grade consisted of 461 students.
 
 (image 1) district summary after first analysis
 <img width="800" alt="district_summary_initial" src="https://user-images.githubusercontent.com/102890151/166126312-31d4b355-ebf1-48a9-a08d-30509cbfd886.png">
@@ -31,16 +31,15 @@ image 4. Thomas High Schools % and scores after adjusted analysis
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-In the original analysis, Thomas High School was ranked 2nd (See image 5, below) in % of overall passing scores. After adjusting the 9th grade data, Thomas High ranked in the right in the middle of 15 campuses at #8 with it's 65 in % of overall passing scores.
+In the original analysis, Thomas High School was ranked 2nd (See image 5, below) in % of overall passing scores. After adjusting the 9th grade data, Thomas High ranked in the middle of 15 campuses at #8 with it's 65 in % of overall passing scores.
 
 image 5
-
 <img width="700" alt="school_summary_overall_passing_initial" src="https://user-images.githubusercontent.com/102890151/166131537-3517810b-855e-4ec2-bd74-31d03193b221.png">
 
 ### How does replacing the ninth-grade scores affect the following?
 - Math and reading scores by grade
 
-In the original analysis, Thomas High had an 83.6 math average and an 83.7 reading average for those 9th grade tests. After adjusted analysis scores have been replaced with null values (NaN)
+In the original analysis, Thomas High had an 83.6 math average and an 83.7 reading average for those 9th grade tests. After adjusted analysis, the scores have been replaced with null values (NaN)
 
 image 6. Thomas High Schools ninth grades reading score shown as NAN in adjusted analysis
 
@@ -48,24 +47,21 @@ image 6. Thomas High Schools ninth grades reading score shown as NAN in adjusted
 
 - Scores by school spending
 
+image 7. initial analysis
 <img width="719" alt="spending_initial" src="https://user-images.githubusercontent.com/102890151/166153707-7e4af54e-70a0-4610-b38b-75895de43a1d.png">
 
+image 8. adjusted analysis
 <img width="724" alt="spendingadjusted" src="https://user-images.githubusercontent.com/102890151/166153710-9d7ac0cc-14d3-4d4b-b54d-bd95ae0caad6.png">
-
-
-
 
 - Scores by school size
 
 Thomas High School is defined as a medium sized school. The hundredths place would have been needed to see the nominal changes in the passing math, passing reading and over passing columns.
 
+image 9. initial analysis
 <img width="678" alt="size_initial" src="https://user-images.githubusercontent.com/102890151/166152726-952d6f1a-6a06-4cd4-abab-1bc746f1368c.png">
 
+image 10. adjusted analysis
 <img width="680" alt="size_adjustd" src="https://user-images.githubusercontent.com/102890151/166152729-ef465a80-2f0e-4566-9833-c70a04fa7cba.png">
-
-
-
-
 
 - Scores by school type
 
@@ -73,10 +69,11 @@ Replacing the ninth-grade scores from Thomas High School did not affect the init
 
 One possible explanation for this could be Charter schools in this dataset were typically characterized as "Small" and "Medium" size schools. As seen in the DataFrame below, Charter schools have a 36% higher overall passing percentage than District schools. 
 
+image 11. Initial analysis
 <img width="730" alt="type_initial" src="https://user-images.githubusercontent.com/102890151/166152144-97f79248-cc5f-4260-9073-b51e744d9e92.png">
 
+image 12. Adjusted analysis
 <img width="734" alt="type_adjusted" src="https://user-images.githubusercontent.com/102890151/166152250-0e234ffe-ff63-4176-9711-397c8679c852.png">
-
 
 ## Summary: 
 ### Four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
