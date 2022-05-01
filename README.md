@@ -47,13 +47,26 @@ image 6. Thomas High Schools ninth grades reading score shown as NAN in adjusted
 <img width="350" alt="thomas_reading_nan" src="https://user-images.githubusercontent.com/102890151/166132074-338ca2f9-3ccb-4517-89d2-189b5da2373c.png">
 
 - Scores by school spending
-- 
-<img width="731" alt="spending_initial" src="https://user-images.githubusercontent.com/102890151/166151477-a50ccac9-16db-4f15-ab93-c06de3998af8.png">
+
+<img width="719" alt="spending_initial" src="https://user-images.githubusercontent.com/102890151/166153707-7e4af54e-70a0-4610-b38b-75895de43a1d.png">
+
+<img width="724" alt="spendingadjusted" src="https://user-images.githubusercontent.com/102890151/166153710-9d7ac0cc-14d3-4d4b-b54d-bd95ae0caad6.png">
 
 
 
 
 - Scores by school size
+
+Thomas High School is defined as a medium sized school. The hundredths place would have been needed to see the nominal changes in the passing math, passing reading and over passing columns.
+
+<img width="678" alt="size_initial" src="https://user-images.githubusercontent.com/102890151/166152726-952d6f1a-6a06-4cd4-abab-1bc746f1368c.png">
+
+<img width="680" alt="size_adjustd" src="https://user-images.githubusercontent.com/102890151/166152729-ef465a80-2f0e-4566-9833-c70a04fa7cba.png">
+
+
+
+
+
 - Scores by school type
 
 Replacing the ninth-grade scores from Thomas High School did not affect the initial summary for scores by school type. There is a noticable trend in the scores by school type. Charter schools generally performed better than District schools. The top five schools with the highest overall passing percentages are all Charter schools. The bottom five are all District Schools. A study could be undertaken to see why this is the case and possible implementation of these successful characteristics in the district setting may prove beneficialCharter vs. District Schools.
