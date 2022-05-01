@@ -46,6 +46,7 @@ image 6. Thomas High Schools ninth grades reading score shown as NAN in adjusted
 
 <img width="350" alt="thomas_reading_nan" src="https://user-images.githubusercontent.com/102890151/166132074-338ca2f9-3ccb-4517-89d2-189b5da2373c.png">
 
+
 - Scores by school spending
 
 Thomas High School was in the $630-$644/student spending range. Again, the hundredths place was needed to see the changes in the score by spending (images 7 and 8).
@@ -58,17 +59,19 @@ image 8. adjusted analysis
 
 <img width="724" alt="spendingadjusted" src="https://user-images.githubusercontent.com/102890151/166153710-9d7ac0cc-14d3-4d4b-b54d-bd95ae0caad6.png">
 
+
 - Scores by school size
 
 Thomas High School is defined as a medium sized school. The hundredths place would have been needed to see the nominal changes in the passing math, passing reading and over passing columns (images 9 and 10).
 
 image 9. initial analysis
 
-<img width="678" alt="size_initial" src="https://user-images.githubusercontent.com/102890151/166152726-952d6f1a-6a06-4cd4-abab-1bc746f1368c.png">
+<img width="700" alt="size_initial" src="https://user-images.githubusercontent.com/102890151/166152726-952d6f1a-6a06-4cd4-abab-1bc746f1368c.png">
 
 image 10. adjusted analysis
 
-<img width="680" alt="size_adjustd" src="https://user-images.githubusercontent.com/102890151/166152729-ef465a80-2f0e-4566-9833-c70a04fa7cba.png">
+<img width="700" alt="size_adjustd" src="https://user-images.githubusercontent.com/102890151/166152729-ef465a80-2f0e-4566-9833-c70a04fa7cba.png">
+
 
 - Scores by school type
 
@@ -76,11 +79,11 @@ Replacing the ninth-grade scores from Thomas High School did not affect the init
 
 image 11. Initial analysis (schools by type)
 
-<img width="730" alt="type_initial" src="https://user-images.githubusercontent.com/102890151/166152144-97f79248-cc5f-4260-9073-b51e744d9e92.png">
+<img width="650" alt="type_initial" src="https://user-images.githubusercontent.com/102890151/166152144-97f79248-cc5f-4260-9073-b51e744d9e92.png">
 
 image 12. Adjusted analysis (schools by type)
 
-<img width="734" alt="type_adjusted" src="https://user-images.githubusercontent.com/102890151/166152250-0e234ffe-ff63-4176-9711-397c8679c852.png">
+<img width="650" alt="type_adjusted" src="https://user-images.githubusercontent.com/102890151/166152250-0e234ffe-ff63-4176-9711-397c8679c852.png">
 
 ## Summary: 
 ### Four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
