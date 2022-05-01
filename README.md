@@ -13,36 +13,47 @@ After completion of the first analysis, the school board notified Maria that the
 
 With the math and reading scores for Thomas High School replaced with NaNs the passing reading, passing math and the overall passing percentages all dropped approximately 1 percent for the district. See images 1 and 2 below.
 
-(Image 1) district summary after first analysis
+(image 1) district summary after first analysis
 <img width="800" alt="district_summary_initial" src="https://user-images.githubusercontent.com/102890151/166126312-31d4b355-ebf1-48a9-a08d-30509cbfd886.png">
 
-(Image 2) district summary after math and reading scores for Thomas High School ninth graders were replaced with NaNs 
+(image 2) district summary after math and reading scores for Thomas High School ninth graders were replaced with NaNs 
 <img width="800" alt="district_summary" src="https://user-images.githubusercontent.com/102890151/166126314-2803a439-f54c-4345-abb9-265421748e4f.png">
 
 ### How the school summary is affected?
 
 Thomas High Schools % passing math (3rd column from right) % passing reading and % overall passing (last column on right) all decreased dramatically after the math and reading scores for Thomas High School ninth graders were replaced with NaNs. Removing the 9th grade students from the data set dropped the overall passing rate from 91% to 65%.
 
-Image 3. Thomas High Schools % and scores after original analysis
+image 3. Thomas High Schools % and scores after original analysis
 <img width="800" alt="per_school_summary_df_first" src="https://user-images.githubusercontent.com/102890151/166130709-50811062-8d21-4e17-b731-380c205fa855.png">
 
-Image 4. Thomas High Schools % and scores after adjusted analysis
+image 4. Thomas High Schools % and scores after adjusted analysis
 <img width="800" alt="per_school_summary_df_after" src="https://user-images.githubusercontent.com/102890151/166130712-cf7a4698-6d01-463e-9223-75628b9e20b8.png">
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-In the original analysis, Thomas High School was ranked 2nd (See image 5 , below) in % of overall passing scores. After adjusting the 9th grade data, Thomas High ranked in the right in the middle of 15 campuses at #8 with it's 65 in % of overall passing scores.
+In the original analysis, Thomas High School was ranked 2nd (See image 5, below) in % of overall passing scores. After adjusting the 9th grade data, Thomas High ranked in the right in the middle of 15 campuses at #8 with it's 65 in % of overall passing scores.
 
-Image 5
+image 5
 
-<img width="600" alt="school_summary_overall_passing_initial" src="https://user-images.githubusercontent.com/102890151/166131537-3517810b-855e-4ec2-bd74-31d03193b221.png">
+<img width="700" alt="school_summary_overall_passing_initial" src="https://user-images.githubusercontent.com/102890151/166131537-3517810b-855e-4ec2-bd74-31d03193b221.png">
+
+### How does replacing the ninth-grade scores affect the following?
+- Math and reading scores by grade
+
+In the original analysis, Thomas High had an 83.6 math average and an 83.7 reading average for those 9th grade tests. After adjusted analysis scores have been replaced with null values (NaN)
+
+image 6. Thomas High Schools ninth grades reading score shown as NAN in adjusted analysis
+
+<img width="350" alt="thomas_reading_nan" src="https://user-images.githubusercontent.com/102890151/166132074-338ca2f9-3ccb-4517-89d2-189b5da2373c.png">
+
+- Scores by school spending
 
 
-### How does replacing the ninth-grade scores affect the following:
-### Math and reading scores by grade
-### Scores by school spending
-### Scores by school size
-### Scores by school type
+
+
+
+- Scores by school size
+- Scores by school type
 
 Charter vs. District Schools
 Charter schools generally performed better than District schools in this analysis. The top five schools with the highest overall passing percentages are all Charter schools, whereas the bottom five are all District Schools. Charter schools in this dataset were typically characterized as "Small" and "Medium" size schools. As seen in the DataFrame below, Charter schools have a 36% higher overall passing percentage than District schools.
